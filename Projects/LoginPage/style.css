@@ -1,0 +1,33 @@
+:root {
+    --formColor : rgb(231, 227, 227);
+}
+
+.container {
+    width: 50%;
+    height: auto;
+    background-color: var(--formColor);
+    margin: auto;
+    border: 3px solid darkgray;
+    border-radius: 5px;
+    font-size: 5vh;
+    padding: 2%;
+}
+
+.userForm {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 3px solid darkgray;
+    border-radius: 5px;
+    background-color: rgb(250, 246, 246);
+    padding: 2%;
+}
+
+.display {
+    width: 80%;
+    margin: 2% auto;
+    border: 3px solid darkgray;
+    background-color: rgb(250, 246, 246);
+    border-radius: 5px;
+    padding: 2%;
+}
