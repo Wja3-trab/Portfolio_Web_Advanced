@@ -13,7 +13,7 @@
     padding: 2%;
 }
 
-.userForm {
+.userForm, .userChoice {
     width: 80%;
     height: auto;
     margin: auto;
@@ -23,6 +23,10 @@
     padding: 2%;
 }
 
+.userChoice {
+    text-align: center;
+}
+
 .display {
     width: 80%;
     margin: 2% auto;
@@ -30,4 +34,12 @@
     background-color: rgb(250, 246, 246);
     border-radius: 5px;
     padding: 2%;
+}
+
+.btn {
+    font-size: 4vh;
+}
+
+#response {
+    font-size: 3vh;
 }
