@@ -73,6 +73,14 @@ body {
     color: rgb(202, 125, 9);
 }
 
+li > div {
+    display: flex;
+}
+
+.item {
+    justify-content: space-between;
+}
+
 @media only screen and (min-width: 1200px) {
     .Title {
         font-size: 12vh;
@@ -91,5 +99,9 @@ body {
     }
     .addTask {
         height: 5vh;
+    }
+    #taskLevel {
+        height: 5vh;
+        font-size: 3vh;
     }
 }
