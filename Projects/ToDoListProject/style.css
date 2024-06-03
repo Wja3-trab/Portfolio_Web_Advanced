@@ -4,6 +4,22 @@
     --hard: rgb(243, 93, 6);
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    } to {
+        opacity: 0;
+    }
+}
+
 body {
     margin: 0;
     background-color: burlywood;
@@ -58,6 +74,8 @@ body {
     border-radius: 5px;
     width: 80%;
     margin: 5% auto;
+    padding: 5px;
+    animation: fadeIn 1.5s;
 }
 
 .addTask, #crntTask {
@@ -79,6 +97,11 @@ li > div {
 
 .item {
     justify-content: space-between;
+    animation: fadeIn 2s;
+}
+
+.delete {
+    animation: fadeOut 1.5s !important;
 }
 
 @media only screen and (min-width: 1200px) {
