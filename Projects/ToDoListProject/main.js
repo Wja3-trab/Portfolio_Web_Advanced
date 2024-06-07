@@ -33,9 +33,9 @@ import runMultipleFunctionsWithInitDelay from "./util.js";
     const destructureTasks = () => {
       const { easy, medium, hard } = tasksMap;
       const allTasksLvls = [...easy, ...medium, ...hard].filter(
-        (tmpArr) => tmpArr.length > 0
+        (tmpArr) => tmpArr.length > 15
       );
-      console.log(allTasksLvls);
+      console.log(`Alle taken met meer dan 15 characters:\t${allTasksLvls}`);
     };
 
     const updateList = () => {
